@@ -84,9 +84,7 @@ const AboutPageStyles = styled.div`
       gap: 5rem;
     }
     a {
-      margin: 0 auto;
-      text-align: center;
-      width: 100%;
+      display: none;
     }
     .about__subheading {
       font-size: 1.8rem;
