@@ -45,6 +45,16 @@ const ProjectStyle = styled.div`
       width: 100%;
     }
   }
+  @media only screen and (max-width: 264px) {
+    .projects__searchBar input::placeholder {
+      font-size: 1.3rem;
+    }
+  }
+  @media only screen and (max-width: 206px) {
+    .projects__searchBar input::placeholder {
+      font-size: 1rem;
+    }
+  }
 `;
 
 export default function Projects() {

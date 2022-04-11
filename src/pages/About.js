@@ -110,6 +110,11 @@ const AboutPageStyles = styled.div`
       font-size: 2rem;
     }
   }
+  @media only screen and (max-width: 170px) {
+    .about__info__heading {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 export default function About() {

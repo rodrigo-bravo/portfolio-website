@@ -171,86 +171,32 @@ const HeroStyles = styled.div`
     }
     .hero__subname {
       font-size: 1.6rem !important;
-      max-width: 50%;
     }
   }
-  @media only screen and (max-width: 294px) {
+  @media only screen and (max-width: 360px) {
     .hero__name {
       font-size: 2.7rem !important;
     }
     .hero__subname {
       font-size: 1.4rem !important;
-      max-width: 40%;
+      max-width: 200px;
+    }
+  }
+  @media only screen and (max-width: 212px) {
+    .hero__name {
+      font-size: 2rem !important;
+    }
+    .hero__subname {
+      font-size: 1rem !important;
+      max-width: 100px;
+    }
+    span {
+      font-size: 0.5rem;
     }
   }
   @media only screen and (max-width: 768px) {
-    .cubespinner {
-      div {
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        border: 2px solid #ccc;
-        background: rgba(255, 255, 255, 0.4);
-        text-align: center;
-        font-size: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 0 20px 0px lightyellow;
-      }
-      .face1 {
-        transform: translateZ(75px);
-        color: #dd0031;
-      }
-      .face2 {
-        transform: rotateY(90deg) translateZ(75px);
-        color: #f06529;
-      }
-      .face3 {
-        transform: rotateY(90deg) rotateX(90deg) translateZ(75px);
-        color: #28a4d9;
-      }
-      .face4 {
-        transform: rotateY(180deg) rotateZ(90deg) translateZ(75px);
-        color: #5ed4f4;
-      }
-      .face5 {
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(75px);
-        color: #efd81d;
-      }
-      .face6 {
-        transform: rotateX(-90deg) translateZ(75px);
-        color: #ec4d28;
-      }
-    }
-    @keyframes spincube {
-      from,
-      to {
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-      }
-      16% {
-        transform: rotateY(-90deg);
-      }
-      33% {
-        transform: rotateY(-90deg) rotateZ(90deg);
-      }
-      50% {
-        transform: rotateY(-180deg) rotateZ(90deg);
-      }
-      66% {
-        transform: rotateY(-270deg) rotateX(90deg);
-      }
-      83% {
-        transform: rotateX(90deg);
-      }
-    }
     .stage-cube-cont {
-      width: 0%;
-      height: 0%;
-      margin-left: 25%;
-      position: static;
-      right: 0;
-      overflow: hidden;
+      display: none;
     }
     .hero__heading {
       font-size: 1.4rem;
@@ -310,7 +256,7 @@ export default function HeroSection() {
       <div className="hero">
         <div className="hero__info">
           <h1 className="hero__heading">
-            <span>Hi, I'm</span>
+            <span>Hi,&emsp;I'm</span>
             <span className="hero__name">Rodrigo Bravo,</span>
             <span className="hero__subname">
               a software developer with a background in Mathematics.

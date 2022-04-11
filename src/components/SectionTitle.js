@@ -22,6 +22,11 @@ const SectionTitleStyle = styled.div`
       font-size: 3.6rem;
     }
   }
+  @media only screen and (max-width: 226px) {
+    h2 {
+      font-size: 2.7rem;
+    }
+  }
 `;
 
 export default function SectionTitle({

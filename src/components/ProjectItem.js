@@ -14,10 +14,11 @@ const ProjectItemStyles = styled.div`
       height: 100%;
     }
   }
-  .projectItem__img:focus {
+  .projectItem__img:focus,
+  .projectItem__img:hover {
     outline: none;
     border-color: #9ecaed;
-    box-shadow: 0 0 100px #9ecaed;
+    box-shadow: 0 0 20px #9ecaed;
   }
   .projectItem__info {
     margin-top: 1rem;
@@ -32,7 +33,6 @@ const ProjectItemStyles = styled.div`
     filter: brightness(1.07);
     padding-bottom: 10px;
     border-bottom: 1px solid white;
-    height: 36px;
     text-align: center;
   }
   .projectItem__desc {
@@ -84,117 +84,61 @@ const ProjectItemStyles = styled.div`
     min-height: 30px;
     text-align: center;
   }
-  @media only screen and (max-width: 332px) {
-    width: 200px !important;
+  @media only screen and (max-width: 344px) {
+    width: 100px;
     .projectItem__img {
-      width: 275px !important;
-      min-width: 275px !important;
-      justify-content: center !important;
+      height: 230px;
+      width: 90vw;
     }
     .projectItem__info {
-      width: 275px !important;
+      height: 265px;
+      margin-top: 0.25rem;
+      width: 90vw;
     }
     .projectItem__tags {
-      font-size: 1rem;
+      padding-top: 1.5rem !important;
+      margin: 0 auto;
+      height: 70px;
+      font-size: 0.8rem;
     }
     .projectItem__title {
-      font-size: 1.24em !important;
-      height: 24px;
+      font-size: 1.6rem !important;
     }
     .projectItem__desc {
-      font-size: 1.2rem;
+      font-size: 1rem;
+      height: 65px;
+    }
+    .techSectionName {
+      color: white;
+      margin-bottom: 0.4rem;
+      text-align: center;
+    }
+    .projectItem__source {
+      font-size: 0.8rem;
+      padding-top: 1.7rem;
+      margin: 0 auto;
     }
   }
-  @media only screen and (max-width: 522px) {
-    .projectItem__img {
-      width: auto;
-      min-width: 100%;
-      height: 400px;
+  @media only screen and (max-width: 216px) {
+    .projectItem__desc {
+      height: 65px;
+    }
+    .projectItem__tags {
+      height: 60px;
     }
     .projectItem__info {
-      width: auto;
-    }
-  }
-  @media only screen and (max-width: 304px) {
-    width: 150px !important;
-    .projectItem__img {
-      width: 260px !important;
-      min-width: 260px !important;
-    }
-    .projectItem__info {
-      width: 260px !important;
-    }
-  }
-  @media only screen and (max-width: 286px) {
-    width: 150px !important;
-    .projectItem__img {
-      width: 250px !important;
-      min-width: 250px !important;
-    }
-    .projectItem__info {
-      width: 250px !important;
-    }
-  }
-  @media only screen and (max-width: 280px) {
-    width: 150px !important;
-    .projectItem__img {
-      width: 240px !important;
-      min-width: 240px !important;
-    }
-    .projectItem__info {
-      width: 240px !important;
-    }
-  }
-  @media only screen and (max-width: 268px) {
-    width: 150px !important;
-    .projectItem__img {
-      width: 230px !important;
-      min-width: 230px !important;
-    }
-    .projectItem__info {
-      width: 230px !important;
-    }
-  }
-  @media only screen and (max-width: 255px) {
-    width: 150px !important;
-    .projectItem__img {
-      width: 220px !important;
-      min-width: 220px !important;
-    }
-    .projectItem__info {
-      width: 220px !important;
-    }
-    .projectItem__title {
-      font-size: 1rem !important;
-    }
-  }
-  @media only screen and (max-width: 245px) {
-    .projectItem__img {
-      width: 20rem !important;
-      min-width: 20rem !important;
-    }
-    .projectItem__info {
-      width: 20rem !important;
+      height: 260px;
     }
   }
   @media only screen and (max-width: 184px) {
-    width: 120px !important;
-    .projectItem__img {
-      width: 140px !important;
-      min-width: 140px !important;
-    }
-    .projectItem__info {
-      width: 140px !important;
+    .projectItem__desc {
+      height: 85px;
     }
     .projectItem__tags {
-      font-size: 1rem;
+      height: 80px;
     }
-    .projectItem__title {
-      font-size: 0.9em !important;
-      height: 24px;
-    }
-    .projectItem__desc {
-      font-size: 0.9rem;
+    .projectItem__info {
+      height: 300px;
     }
   }
 `;
