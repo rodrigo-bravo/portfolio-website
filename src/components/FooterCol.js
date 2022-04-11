@@ -12,6 +12,12 @@ const ColStyle = styled.div`
   a {
     font-size: 1.8rem;
   }
+  @media only screen and (max-width: 768px) {
+    a {
+      word-wrap: break-word;
+      font-size: 160%;
+    }
+  }
 `;
 
 export default function FooterCol({
