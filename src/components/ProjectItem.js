@@ -118,6 +118,16 @@ const ProjectItemStyles = styled.div`
   @media only screen and (max-width: 304px) {
     width: 150px !important;
     .projectItem__img {
+      width: 260px !important;
+      min-width: 260px !important;
+    }
+    .projectItem__info {
+      width: 260px !important;
+    }
+  }
+  @media only screen and (max-width: 286px) {
+    width: 150px !important;
+    .projectItem__img {
       width: 250px !important;
       min-width: 250px !important;
     }
@@ -125,7 +135,17 @@ const ProjectItemStyles = styled.div`
       width: 250px !important;
     }
   }
-  @media only screen and (max-width: 286px) {
+  @media only screen and (max-width: 280px) {
+    width: 150px !important;
+    .projectItem__img {
+      width: 240px !important;
+      min-width: 240px !important;
+    }
+    .projectItem__info {
+      width: 240px !important;
+    }
+  }
+  @media only screen and (max-width: 268px) {
     width: 150px !important;
     .projectItem__img {
       width: 230px !important;
@@ -138,24 +158,23 @@ const ProjectItemStyles = styled.div`
   @media only screen and (max-width: 255px) {
     width: 150px !important;
     .projectItem__img {
-      width: 200px !important;
-      min-width: 200px !important;
+      width: 220px !important;
+      min-width: 220px !important;
     }
     .projectItem__info {
-      width: 200px !important;
+      width: 220px !important;
+    }
+    .projectItem__title {
+      font-size: 1rem !important;
     }
   }
-  @media only screen and (max-width: 220px) {
-    width: 150px !important;
+  @media only screen and (max-width: 245px) {
     .projectItem__img {
-      width: 15rem !important;
-      min-width: 18rem !important;
+      width: 20rem !important;
+      min-width: 20rem !important;
     }
     .projectItem__info {
-      width: 18rem !important;
-    }
-    .projectItem__tags {
-      font-size: 1rem;
+      width: 20rem !important;
     }
   }
   @media only screen and (max-width: 184px) {

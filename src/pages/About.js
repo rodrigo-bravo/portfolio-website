@@ -79,7 +79,6 @@ const AboutPageStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     padding: 15rem 0;
-    padding-top: 10rem;
     .top-section {
       flex-direction: column;
       gap: 0rem;

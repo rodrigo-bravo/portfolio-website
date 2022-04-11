@@ -10,7 +10,6 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons';
 import Button from './Button';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 
 const HeroStyles = styled.div`
   .cubespinner {
@@ -139,71 +138,36 @@ const HeroStyles = styled.div`
     margin-top: -2rem;
     margin-left: 25.5rem;
   }
-  .hero__social,
-  .hero__scrollDown {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    position: absolute;
-    bottom: 40px;
-    width: 50px;
-  }
-  .hero__social {
-    left: 50px;
-  }
-  .hero__scrollDown {
-    right: 50px;
-  }
 
-  .hero__social__indicator,
-  .hero__scrollDown {
-    width: 50px;
-    p {
-      font-size: 1.6rem;
-      transform: translateY(-70px) rotate(90deg);
-      letter-spacing: 0.7rem;
-      text-transform: uppercase;
-      color: rgba(255, 255, 255, 0.5);
-    }
-    img {
-      max-height: 45px;
-      width: 16px;
-      margin: 0 auto;
-      object-fit: contain;
+  @media only screen and (min-width: 767px) and (max-height: 410px) {
+    .hero__info {
+      top: 60% !important;
     }
   }
-  .hero__scrollDown {
-    img {
-      max-height: 70px;
+  @media only screen and (max-width: 1214px) {
+    .container {
+      display: none;
+    }
+    .hero__info {
+      margin-left: 0rem !important;
     }
   }
-
-  .hero__social__text {
-    ul {
-      li {
-        margin-bottom: 1rem;
-        a {
-          display: inline-block;
-          font-size: 1.6rem;
-          transform: rotate(-90deg);
-          letter-spacing: 5px;
-          margin-bottom: 2rem;
-        }
-      }
+  @media only screen and (max-height: 664px) and (min-width: 767px) {
+    h1 {
+      margin-top: 10rem !important;
     }
   }
-
-  @media only screen and (max-height: 664px) {
+  @media only screen and (max-height: 664px) and (max-width: 767px) {
     h1 {
       margin-top: -10rem !important;
     }
   }
-  @media only screen and (max-height: 467px) {
+  @media only screen and (max-height: 467px) and (max-width: 767px) {
     h1 {
       margin-top: -17rem !important;
     }
   }
-  @media only screen and (max-height: 367px) {
+  @media only screen and (max-height: 367px) and (max-width: 767px) {
     h1 {
       margin-top: -22rem !important;
     }
@@ -389,10 +353,6 @@ export default function HeroSection() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="hero__scrollDown">
-            <p>Scroll</p>
-            <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
           </div>
         </div>
       </div>
