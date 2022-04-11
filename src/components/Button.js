@@ -24,6 +24,11 @@ const ButtonStyle = styled.div`
       font-size: 1.28rem;
     }
   }
+  @media only screen and (max-width: 250px) {
+    .button {
+      font-size: 0.9rem;
+    }
+  }
 `;
 
 export default function Button({

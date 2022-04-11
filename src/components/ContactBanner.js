@@ -27,11 +27,22 @@ const ContactBannerStyles = styled.div`
     color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
   }
   @media only screen and (max-width: 768px) {
+    margin-bottom: -5rem;
+    margin-top: -4rem;
     .contactBanner__heading {
-      font-size: 2.4rem;
+      font-size: 1.7rem;
     }
     a {
-      font-size: 1.35rem;
+      font-size: 1.2rem;
+    }
+  }
+  @media only screen and (max-width: 254px) {
+    margin-top: -5rem;
+    .contactBanner__heading {
+      font-size: 1.5rem;
+    }
+    a {
+      font-size: 1rem;
     }
   }
 `;

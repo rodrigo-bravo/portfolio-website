@@ -91,7 +91,6 @@ const HeroStyles = styled.div`
 
   .hero {
     height: 100vh;
-    min-height: 1000px;
     width: 100%;
     text-align: center;
     background: url('./assets/images/image.jpg');
@@ -194,6 +193,21 @@ const HeroStyles = styled.div`
     }
   }
 
+  @media only screen and (max-height: 664px) {
+    h1 {
+      margin-top: -10rem !important;
+    }
+  }
+  @media only screen and (max-height: 467px) {
+    h1 {
+      margin-top: -17rem !important;
+    }
+  }
+  @media only screen and (max-height: 367px) {
+    h1 {
+      margin-top: -22rem !important;
+    }
+  }
   @media only screen and (max-width: 1482px) {
     .hero__info {
       margin-left: 7rem;

@@ -79,11 +79,12 @@ const AboutPageStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     padding: 15rem 0;
+    padding-top: 10rem;
     .top-section {
       flex-direction: column;
-      gap: 5rem;
+      gap: 0rem;
     }
-    a {
+    .topEmail {
       display: none;
     }
     .about__subheading {
@@ -105,6 +106,11 @@ const AboutPageStyles = styled.div`
       max-width: 500px;
     }
   }
+  @media only screen and (max-width: 250px) {
+    .about__info__heading {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export default function About() {
@@ -114,9 +120,7 @@ export default function About() {
         <div className="container">
           <div className="top-section">
             <div className="left">
-              <p className="about__subheading">
-                Hi, I am <span>Rodrigo Bravo</span>
-              </p>
+              <p className="about__subheading"> Hi, I am Rodrigo Bravo.</p>
               <h2 className="about__heading">A software engineer</h2>
               <div className="about__info">
                 <PText>
@@ -131,7 +135,9 @@ export default function About() {
                   I'm currently working on a stock trading bot with Python.
                 </PText>
               </div>
-              <a href="mailto:rodrigoebravo@outlook.com">Email</a>
+              <a className="topEmail" href="mailto:rodrigoebravo@outlook.com">
+                Email
+              </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

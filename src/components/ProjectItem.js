@@ -84,12 +84,16 @@ const ProjectItemStyles = styled.div`
     min-height: 30px;
     text-align: center;
   }
-  @media only screen and (max-width: 768px) {
-    .projectItem__img {
-      height: 350px;
-    }
-  }
   @media only screen and (max-width: 332px) {
+    width: 200px !important;
+    .projectItem__img {
+      width: 275px !important;
+      min-width: 275px !important;
+      justify-content: center !important;
+    }
+    .projectItem__info {
+      width: 275px !important;
+    }
     .projectItem__tags {
       font-size: 1rem;
     }
@@ -101,7 +105,68 @@ const ProjectItemStyles = styled.div`
       font-size: 1.2rem;
     }
   }
+  @media only screen and (max-width: 522px) {
+    .projectItem__img {
+      width: auto;
+      min-width: 100%;
+      height: 400px;
+    }
+    .projectItem__info {
+      width: auto;
+    }
+  }
+  @media only screen and (max-width: 304px) {
+    width: 150px !important;
+    .projectItem__img {
+      width: 250px !important;
+      min-width: 250px !important;
+    }
+    .projectItem__info {
+      width: 250px !important;
+    }
+  }
+  @media only screen and (max-width: 286px) {
+    width: 150px !important;
+    .projectItem__img {
+      width: 230px !important;
+      min-width: 230px !important;
+    }
+    .projectItem__info {
+      width: 230px !important;
+    }
+  }
+  @media only screen and (max-width: 255px) {
+    width: 150px !important;
+    .projectItem__img {
+      width: 200px !important;
+      min-width: 200px !important;
+    }
+    .projectItem__info {
+      width: 200px !important;
+    }
+  }
+  @media only screen and (max-width: 220px) {
+    width: 150px !important;
+    .projectItem__img {
+      width: 15rem !important;
+      min-width: 18rem !important;
+    }
+    .projectItem__info {
+      width: 18rem !important;
+    }
+    .projectItem__tags {
+      font-size: 1rem;
+    }
+  }
   @media only screen and (max-width: 184px) {
+    width: 120px !important;
+    .projectItem__img {
+      width: 140px !important;
+      min-width: 140px !important;
+    }
+    .projectItem__info {
+      width: 140px !important;
+    }
     .projectItem__tags {
       font-size: 1rem;
     }

@@ -90,6 +90,13 @@ const NavStyles = styled.nav`
       }
     }
   }
+  @media only screen and (max-width: 250px) {
+    li {
+      a {
+        font-size: 1.4rem;
+      }
+    }
+  }
 `;
 
 export default function NavMenu() {

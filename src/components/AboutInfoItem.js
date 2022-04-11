@@ -13,6 +13,7 @@ const AboutItemStyles = styled.div`
   .title {
     font-size: 2.4rem;
     max-width: 2.5rem;
+    filter: brightness(1.05);
   }
   .items {
     display: flex;
@@ -35,6 +36,9 @@ const AboutItemStyles = styled.div`
     .items {
       position: initial;
       gap: 1rem;
+      max-width: 30rem !important;
+      display: flex;
+      flex-wrap: wrap;
     }
     .title {
       font-size: 2rem;
