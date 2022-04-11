@@ -157,21 +157,6 @@ const HeroStyles = styled.div`
       margin-top: 10rem !important;
     }
   }
-  @media only screen and (max-height: 664px) and (max-width: 767px) {
-    h1 {
-      margin-top: -10rem !important;
-    }
-  }
-  @media only screen and (max-height: 467px) and (max-width: 767px) {
-    h1 {
-      margin-top: -17rem !important;
-    }
-  }
-  @media only screen and (max-height: 367px) and (max-width: 767px) {
-    h1 {
-      margin-top: -22rem !important;
-    }
-  }
   @media only screen and (max-width: 1482px) {
     .hero__info {
       margin-left: 7rem;
@@ -182,11 +167,20 @@ const HeroStyles = styled.div`
   }
   @media only screen and (max-width: 432px) {
     .hero__name {
-      font-size: 2.2rem !important;
+      font-size: 3.2rem !important;
     }
     .hero__subname {
-      font-size: 1.2rem !important;
-      max-width: 200px;
+      font-size: 1.6rem !important;
+      max-width: 50%;
+    }
+  }
+  @media only screen and (max-width: 294px) {
+    .hero__name {
+      font-size: 2.7rem !important;
+    }
+    .hero__subname {
+      font-size: 1.4rem !important;
+      max-width: 40%;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -257,9 +251,6 @@ const HeroStyles = styled.div`
       position: static;
       right: 0;
       overflow: hidden;
-    }
-    .hero {
-      min-height: 750px;
     }
     .hero__heading {
       font-size: 1.4rem;

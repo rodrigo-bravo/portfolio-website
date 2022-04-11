@@ -21,12 +21,12 @@ const ButtonStyle = styled.div`
   }
   @media only screen and (max-width: 432px) {
     .button {
-      font-size: 1.28rem;
+      font-size: 1.35rem;
     }
   }
   @media only screen and (max-width: 250px) {
     .button {
-      font-size: 0.9rem;
+      font-size: 1.3rem;
     }
   }
 `;
