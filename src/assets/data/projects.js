@@ -22,7 +22,7 @@ const projects = [
     id: uuidv4(),
     name: 'Backend API Development',
     desc:
-      'A backend model to provide a REST API that the front-end can access the database and queries.',
+      'A backend model to provide a REST API such that the front-end can access the database and queries.',
     tags: '#Backend #Express #Node.js #JavaScript #JWTs #Cookies',
     sourceLink: 'https://github.com/rodrigo-bravo/api-backend',
     img: backendImg,
