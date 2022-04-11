@@ -14,7 +14,7 @@ const NavStyles = styled.nav`
   ul {
     max-width: 1200px;
     margin: 0 auto;
-    width: 90%;
+    width: 104%;
     text-align: center;
     li {
       display: inline-block;
