@@ -13,7 +13,7 @@ const FooterStyle = styled.div`
     gap: 5rem;
   }
   .footer__col1 {
-    flex: 1.5 ;
+    flex: 1.5;
   }
   .footer__col2,
   .footer__col3,
