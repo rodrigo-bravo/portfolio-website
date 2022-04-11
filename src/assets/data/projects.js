@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import bookcompanyImg from '../images/bookcompanyv3.png';
-import UTrackerImg from '../images/covidcases.png';
+import UTrackerImg from '../images/covidImg.jpg';
 import backendImg from '../images/backendCode.jpg';
 import weatherImg from '../images/weatherImage.png';
 
