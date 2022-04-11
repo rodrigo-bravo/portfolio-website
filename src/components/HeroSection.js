@@ -256,10 +256,9 @@ export default function HeroSection() {
       <div className="hero">
         <div className="hero__info">
           <h1 className="hero__heading">
-            <span>Hi,&emsp;I'm</span>
-            <span className="hero__name">Rodrigo Bravo,</span>
+            <span className="hero__name">Rodrigo Bravo</span>
             <span className="hero__subname">
-              a software developer with a background in Mathematics.
+              I am a software developer with a background in Mathematics.
             </span>
           </h1>
           <Button btnText="See my projects" btnLink="/projects" />

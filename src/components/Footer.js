@@ -13,7 +13,10 @@ const FooterStyle = styled.div`
     gap: 5rem;
   }
   .footer__col1 {
-    flex: 1.5;
+    flex: 1;
+  }
+  .footer__col3 {
+    padding-right: 100px;
   }
   .footer__col2,
   .footer__col3,
@@ -23,6 +26,11 @@ const FooterStyle = styled.div`
   .footer__col1__title {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+  }
+  @media only screen and (max-width: 1100px) {
+    .footer__col3 {
+      padding-right: 0px;
+    }
   }
   @media only screen and (max-width: 768px) {
     .container {
@@ -72,7 +80,7 @@ export default function Footer() {
           <FooterCol
             links={[
               {
-                title: 'Rodrigoebravo\n@outlook.com',
+                title: 'Rodrigoebravo@outlook.com',
                 path: 'mailto:rodrigoebravo@outlook.com',
               },
               {
