@@ -13,7 +13,7 @@ const FooterStyle = styled.div`
     gap: 5rem;
   }
   .footer__col1 {
-    flex: 2;
+    flex: 1.5 ;
   }
   .footer__col2,
   .footer__col3,
@@ -43,7 +43,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Rodrigo Bravo</h1>
+          <h1 className="footer__col1__title">Portfolio</h1>
         </div>
         <div className="footer__col2">
           <h1>Links</h1>
