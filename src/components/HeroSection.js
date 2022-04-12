@@ -157,10 +157,7 @@ const HeroStyles = styled.div`
       margin-top: 10rem !important;
     }
   }
-  @media only screen and (max-width: 1482px) {
-    .hero__info {
-      margin-left: 7rem;
-    }
+  @media only screen and (max-width: 506px) {
     .hero__subname {
       max-width: 360px;
     }
@@ -206,6 +203,7 @@ const HeroStyles = styled.div`
       }
       .hero__subname {
         font-size: 1.6rem;
+        max-width: 80vw;
       }
     }
     .hero__img {
