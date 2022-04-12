@@ -78,7 +78,8 @@ const AboutPageStyles = styled.div`
     border-bottom: 1px solid grey;
     color: rgba(255, 255, 255, 0.82) !important;
   }
-  #content-icon {
+  #content-icon,
+  #content-icon-email {
     width: 30%;
     display: inline-block;
     border-radius: 12px;
@@ -90,6 +91,12 @@ const AboutPageStyles = styled.div`
     width: 20%;
     height: 100%;
   }
+  #content-icon-email img {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 100%;
+  }
   #img-content {
     width: 60%;
     display: inline-block;
@@ -97,7 +104,8 @@ const AboutPageStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
-    #content-icon {
+    #content-icon,
+    #content-icon-email {
       margin-bottom: 24px;
     }
     .top-section {
@@ -196,9 +204,9 @@ export default function About() {
                   Github
                 </a>
               </div>
-              <div id="content-icon">
+              <div id="content-icon-email">
                 <img
-                  src="https://i.ibb.co/jh5t3WT/logogmail.png"
+                  src="https://i.ibb.co/MN7GMJm/logogmailv3.png"
                   alt="Email Logo"
                 />
                 <a id="img-content" href="mailto:rodrigoebravo@outlook.com">
