@@ -96,7 +96,7 @@ const AboutPageStyles = styled.div`
     float: left;
   }
   @media only screen and (max-width: 768px) {
-    padding: 13rem 0;
+    padding: 10rem 0;
     #content-icon {
       margin-bottom: 24px;
     }
@@ -123,14 +123,31 @@ const AboutPageStyles = styled.div`
       max-width: 600px;
     }
   }
-  @media only screen and (max-width: 250px) {
+  @media only screen and (max-width: 260px) {
     .about__info__heading {
       font-size: 2rem;
+    }
+    #img-content {
+      font-size: 0.7rem;
+    }
+    .about__subheading {
+      font-size: 1.4rem;
+    }
+    .about__heading {
+      font-size: 2.2rem;
+    }
+  }
+  @media only screen and (max-width: 190px) {
+    #img-content {
+      font-size: 0.65rem;
     }
   }
   @media only screen and (max-width: 170px) {
     .about__info__heading {
       font-size: 1.5rem;
+    }
+    #img-content {
+      font-size: 0.6rem;
     }
   }
 `;

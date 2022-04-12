@@ -44,6 +44,14 @@ const AboutItemStyles = styled.div`
       font-size: 2rem;
       max-width: 100%;
     }
+    .item {
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .item {
+      font-size: 0.65rem;
+    }
   }
 `;
 
