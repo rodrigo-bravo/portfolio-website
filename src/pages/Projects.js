@@ -38,7 +38,7 @@ const ProjectStyle = styled.div`
     color: var(--deep-dark);
   }
   @media only screen and (max-width: 768px) {
-    padding: 14rem 0;
+    padding: 13rem 0;
     .projects__searchBar,
     .projects__searchBar form,
     .projects__searchBar input {

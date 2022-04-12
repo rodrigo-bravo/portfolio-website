@@ -96,7 +96,7 @@ const AboutPageStyles = styled.div`
     float: left;
   }
   @media only screen and (max-width: 768px) {
-    padding: 13.5rem 0;
+    padding: 13rem 0;
     #content-icon {
       margin-bottom: 24px;
     }
@@ -163,7 +163,10 @@ export default function About() {
                   src="https://i.ibb.co/ccXF788/logolinkedin.png"
                   alt="Linkedin Logo"
                 />
-                <a id="img-content" href="www.linkedin.com/in/rodrigo-e-bravo">
+                <a
+                  id="img-content"
+                  href="https://linkedin.com/in/rodrigo-e-bravo"
+                >
                   Linkedin
                 </a>
               </div>
@@ -172,7 +175,7 @@ export default function About() {
                   src="https://i.ibb.co/b2DHsg2/logogithubv6.png"
                   alt="Github Logo"
                 />
-                <a id="img-content" href="mailto:rodrigoebravo@outlook.com">
+                <a id="img-content" href="https://github.com/rodrigo-bravo">
                   Github
                 </a>
               </div>
