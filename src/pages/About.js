@@ -208,8 +208,8 @@ export default function About() {
                 items={['Library Systems Assistant']}
               />
               <AboutInfoItem
-                title="2021"
-                items={['Polymath Jr-REU at Williams College SMALL 2021 ']}
+                title="2020"
+                items={['Polymath Jr-REU at Williams College SMALL 2020 ']}
               />
               <AboutInfoItem title="2021-" items={['Software Engineer']} />
             </div>
