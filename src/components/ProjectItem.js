@@ -14,18 +14,12 @@ const ProjectItemStyles = styled.div`
       height: 100%;
     }
     outline: none;
-    border-color: #9ecaed;
-    box-shadow: 0 0 20px #9ecaed;
-  }
-  .projectItem__img:focus,
-  .projectItem__img:hover {
-    outline: none;
-    border-color: #9ecaed;
-    box-shadow: 0 0 20px #9ecaed;
+    border-color: #4f6576;
+    box-shadow: 0 0 20px #4f6576;
   }
   .projectItem__info {
     margin-top: 1rem;
-    background-color: rgb(202, 218, 174, 0.35);
+    background-color: rgb(202, 218, 174, 0.265);
     padding: 2rem;
     border-radius: 12px;
     border: 0.1rem solid rgb(107, 136, 98);
