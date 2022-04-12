@@ -40,7 +40,7 @@ const projects = [
     id: uuidv4(),
     name: 'Covid-19 Data Analysis',
     desc:
-      'Exploratory data analysis in SQL of Covid-19 case and death trends by country.',
+      'Exploratory data analysis using SQL of Covid-19 case and death trends by country.',
     tags: '#SQL #Excel',
     sourceLink: 'https://github.com/rodrigo-bravo/covid-data-analysis',
     img: UTrackerImg,
