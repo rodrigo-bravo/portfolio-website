@@ -9,7 +9,7 @@ const projects = [
     id: uuidv4(),
     name: 'BookCompany',
     desc:
-      'An application to track your all books, podcasts, songs, and all your other albums in one place.',
+      'An application to track all your books, podcasts, songs, and other albums in one place.',
     tags:
       '#FullStack #Angular #JavaScript #Node.js #APIs #Firebase #Express #HTML #CSS ',
     sourceLink: 'https://github.com/rodrigo-bravo/bookcompany',
