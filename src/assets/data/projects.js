@@ -23,7 +23,7 @@ const projects = [
     name: 'Backend API Development',
     desc:
       'A backend model to provide a REST API such that the front-end can access the database and queries.',
-    tags: '#Backend #Express #Node.js #JavaScript #JWTs #Cookies',
+    tags: '#Backend #Express #Node.js #JavaScript #JWTs #Cookies #MongoDB',
     sourceLink: 'https://github.com/rodrigo-bravo/api-backend',
     img: backendImg,
   },
