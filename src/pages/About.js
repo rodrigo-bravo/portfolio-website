@@ -8,7 +8,7 @@ import ContactBanner from '../components/ContactBanner';
 const AboutPageStyles = styled.div`
   padding: 23rem 0 10rem 0;
   padding-bottom: 6rem;
-  padding-top: 20rem;
+  padding-top: 18rem;
   background-color: rgb(3, 16, 21) !important;
   .top-section {
     display: flex;
@@ -24,15 +24,11 @@ const AboutPageStyles = styled.div`
     flex: 2;
   }
   a {
-    font-size: 1.5rem;
-    background-color: var(--gray-1);
-    padding: 0.7em 2em;
-    border: 2px solid var(--gray-1);
-    border-radius: 8px;
-    filter: brightness(1.2);
-    font-weight: 500;
-    display: inline-block;
-    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+    font-size: 1em;
+    padding: 0.5em 0.5em;
+  }
+  .topLinkedin {
+    background-color: rgb(86, 144, 199);
   }
   .about__subheading {
     font-size: 2.2rem;
@@ -42,6 +38,11 @@ const AboutPageStyles = styled.div`
       padding: 0.5rem;
       border-radius: 8px;
     }
+  }
+  .linkedinIcon {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
   }
   .about__heading {
     font-size: 3.6rem;
@@ -77,14 +78,31 @@ const AboutPageStyles = styled.div`
     border-bottom: 1px solid grey;
     color: rgba(255, 255, 255, 0.82) !important;
   }
+  #content-icon {
+    width: 30%;
+    display: inline-block;
+    border-radius: 12px;
+    margin-right: 3%;
+  }
+  #content-icon img {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+  #img-content {
+    width: 60%;
+    display: inline-block;
+    float: left;
+  }
   @media only screen and (max-width: 768px) {
-    padding: 15rem 0;
+    padding: 13.5rem 0;
+    #content-icon {
+      margin-bottom: 24px;
+    }
     .top-section {
       flex-direction: column;
       gap: 0rem;
-    }
-    .topEmail {
-      display: none;
     }
     .about__subheading {
       font-size: 1.8rem;
@@ -102,7 +120,7 @@ const AboutPageStyles = styled.div`
       padding-top: 0rem;
     }
     img {
-      max-width: 500px;
+      max-width: 600px;
     }
   }
   @media only screen and (max-width: 250px) {
@@ -140,9 +158,33 @@ export default function About() {
                   I'm currently working on a stock trading bot with Python.
                 </PText>
               </div>
-              <a className="topEmail" href="mailto:rodrigoebravo@outlook.com">
-                Email
-              </a>
+              <div id="content-icon">
+                <img
+                  src="https://i.ibb.co/ccXF788/logolinkedin.png"
+                  alt="Linkedin Logo"
+                />
+                <a id="img-content" href="www.linkedin.com/in/rodrigo-e-bravo">
+                  Linkedin
+                </a>
+              </div>
+              <div id="content-icon">
+                <img
+                  src="https://i.ibb.co/b2DHsg2/logogithubv6.png"
+                  alt="Github Logo"
+                />
+                <a id="img-content" href="mailto:rodrigoebravo@outlook.com">
+                  Github
+                </a>
+              </div>
+              <div id="content-icon">
+                <img
+                  src="https://i.ibb.co/jh5t3WT/logogmail.png"
+                  alt="Email Logo"
+                />
+                <a id="img-content" href="mailto:rodrigoebravo@outlook.com">
+                  Email
+                </a>
+              </div>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

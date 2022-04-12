@@ -27,6 +27,9 @@ const FooterStyle = styled.div`
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
+  .githubIcon {
+    filter: brightness(4);
+  }
   @media only screen and (max-width: 1100px) {
     .footer__col3 {
       padding-right: 0px;
@@ -94,7 +97,10 @@ export default function Footer() {
           <h1>Socials</h1>
           <br />
           <SocialIcon url="https://twitter.com/erodbravo" />
-          <SocialIcon url="https://github.com/rodrigo-bravo" />
+          <SocialIcon
+            className="githubIcon"
+            url="https://github.com/rodrigo-bravo"
+          />
           <SocialIcon url="https://linkedin.com/in/rodrigo-e-bravo" />
         </div>
       </div>
