@@ -130,7 +130,8 @@ export default function About() {
                 <PText>
                   from Orlando, FL.
                   <br />
-                  <br /> I worked with <b>Express</b>, <b>Javascript</b>,&nbsp;
+                  <br /> I've worked with <b>Express</b>, <b>Javascript</b>
+                  ,&nbsp;
                   <b>Angular</b>, <b>React</b>, <b>Java</b>, <b>Springboot</b>,
                   <b> J2EE</b>, <b>Python</b>, <b>R</b>, <b>Stata</b>,
                   <b> MATLAB</b>, and <b>Oracle SQL</b>.

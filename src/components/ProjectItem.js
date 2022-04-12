@@ -13,6 +13,9 @@ const ProjectItemStyles = styled.div`
     img {
       height: 100%;
     }
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 20px #9ecaed;
   }
   .projectItem__img:focus,
   .projectItem__img:hover {
@@ -26,6 +29,9 @@ const ProjectItemStyles = styled.div`
     padding: 2rem;
     border-radius: 12px;
     border: 0.1rem solid rgb(107, 136, 98);
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 1px #9ecaed;
   }
   .projectItem__title {
     font-size: 1.75em !important;
