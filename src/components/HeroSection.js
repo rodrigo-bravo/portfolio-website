@@ -92,7 +92,7 @@ const HeroStyles = styled.div`
     height: 100vh;
     width: 100%;
     text-align: center;
-    background: url('./assets/images/image.jpg');
+    background: url('./assets/images/image.webp');
     position: fixed;
     background-size: cover;
     background-repeat: no-repeat;

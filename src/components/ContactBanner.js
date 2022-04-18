@@ -14,11 +14,11 @@ const ContactBannerStyles = styled.div`
     justify-content: center !important;
   }
   .contactBanner__heading {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 2rem;
   }
   a {
-    font-size: 1.5rem;
+    font-size: 15px;
     background-color: var(--gray-1);
     padding: 0.7em 2em;
     border: 2px solid var(--gray-1);
@@ -33,7 +33,7 @@ const ContactBannerStyles = styled.div`
       font-size: 1.7rem;
     }
     a {
-      font-size: 1.2rem;
+      font-size: 15px;
     }
   }
   @media only screen and (max-width: 254px) {
