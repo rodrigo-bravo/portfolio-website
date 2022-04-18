@@ -136,7 +136,7 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: -2rem;
-    margin-left: 20%;
+    margin-left: 18%;
   }
 
   @media only screen and (min-width: 767px) and (max-height: 410px) {
