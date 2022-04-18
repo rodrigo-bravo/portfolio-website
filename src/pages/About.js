@@ -97,7 +97,7 @@ const AboutPageStyles = styled.div`
     width: 25%;
     height: 100%;
   }
-  #img-content {
+  .img-content {
     width: 60%;
     display: inline-block;
     float: left;
@@ -135,7 +135,7 @@ const AboutPageStyles = styled.div`
     .about__info__heading {
       font-size: 2rem;
     }
-    #img-content {
+    .img-content {
       font-size: 0.7rem;
     }
     .about__subheading {
@@ -146,7 +146,7 @@ const AboutPageStyles = styled.div`
     }
   }
   @media only screen and (max-width: 190px) {
-    #img-content {
+    .img-content {
       font-size: 0.65rem;
     }
   }
@@ -154,7 +154,7 @@ const AboutPageStyles = styled.div`
     .about__info__heading {
       font-size: 1.5rem;
     }
-    #img-content {
+    .img-content {
       font-size: 0.6rem;
     }
   }
@@ -189,7 +189,7 @@ export default function About() {
                   alt="Linkedin Logo"
                 />
                 <a
-                  id="img-content"
+                  className="img-content"
                   href="https://linkedin.com/in/rodrigo-e-bravo"
                 >
                   Linkedin
@@ -200,7 +200,10 @@ export default function About() {
                   src="https://i.ibb.co/b2DHsg2/logogithubv6.png"
                   alt="Github Logo"
                 />
-                <a id="img-content" href="https://github.com/rodrigo-bravo">
+                <a
+                  className="img-content"
+                  href="https://github.com/rodrigo-bravo"
+                >
                   Github
                 </a>
               </div>
@@ -209,7 +212,10 @@ export default function About() {
                   src="https://i.ibb.co/MN7GMJm/logogmailv3.png"
                   alt="Email Logo"
                 />
-                <a id="img-content" href="mailto:rodrigoebravo@outlook.com">
+                <a
+                  className="img-content"
+                  href="mailto:rodrigoebravo@outlook.com"
+                >
                   Email
                 </a>
               </div>
