@@ -52,7 +52,7 @@ export default function ContactBanner() {
     <ContactBannerStyles>
       <div className="container">
         <div className="contactBanner__wrapper">
-          <h3 className="contactBanner__heading">Feel free to contact me!</h3>
+          <h1 className="contactBanner__heading">Feel free to contact me!</h1>
           <a href="mailto:rodrigoebravo@outlook.com">Email</a>
         </div>
       </div>
