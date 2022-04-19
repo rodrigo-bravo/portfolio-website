@@ -179,7 +179,7 @@ export default function ProjectItem({
           <a
             href={websiteLink}
             className="projectItem__source__websiteLink"
-            alt="Website Link"
+            alt="Web Link"
           >
             {websiteTitle}
           </a>
