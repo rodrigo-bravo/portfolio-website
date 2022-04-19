@@ -168,11 +168,19 @@ export default function ProjectItem({
           {tags}
         </p>
         <p className="projectItem__source">
-          <a href={sourceLink} className="projectItem__source__code">
+          <a
+            href={sourceLink}
+            className="projectItem__source__code"
+            alt="Website Link"
+          >
             Source Code
           </a>
           {dividor}
-          <a href={websiteLink} className="projectItem__source__websiteLink">
+          <a
+            href={websiteLink}
+            className="projectItem__source__websiteLink"
+            alt="Website Link"
+          >
             {websiteTitle}
           </a>
         </p>
