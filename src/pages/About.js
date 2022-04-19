@@ -221,7 +221,7 @@ export default function About() {
               </div>
             </div>
             <div className="right">
-              <img src={AboutImg} alt="me" />
+              <img src={AboutImg} alt="me" width="500" height="500" />
             </div>
           </div>
           <div className="about__info__items">
