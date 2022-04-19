@@ -14,6 +14,7 @@ const NavStyles = styled.nav`
   ul {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 2rem;
     width: 104%;
     text-align: center;
     li {
@@ -27,7 +28,7 @@ const NavStyles = styled.nav`
     a {
       display: inline-block;
       font-family: 'RobotoMono Regular';
-      padding: 1rem 2rem;
+      padding: 1rem 2.2rem;
       font-size: 2rem;
       color: var(--gray-1);
       outline: none;
