@@ -171,7 +171,7 @@ export default function ProjectItem({
           <a
             href={sourceLink}
             className="projectItem__source__code"
-            alt="Website Link"
+            alt="Source Link"
           >
             Source Code
           </a>
