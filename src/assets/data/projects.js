@@ -9,9 +9,10 @@ const projects = [
   {
     id: uuidv4(),
     name: 'BookCompany',
-    desc: 
+    desc:
       'An application with Angular to track your books, podcasts, songs, and other albums all in one place.',
-    tags: '#FullStack #Angular #JavaScript #NodeJS #APIs #Firebase #Express #HTML #CSS ',
+    tags:
+      '#FullStack #Angular #JavaScript #NodeJS #APIs #Firebase #Express #HTML #CSS ',
     sourceLink: 'https://github.com/rodrigo-bravo/bookcompany',
     websiteTitle: 'Live Demo',
     dividor: ' | ',
@@ -21,7 +22,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Backend API Development',
-    desc: 
+    desc:
       'A backend model to provide a REST API such that the front-end can access the database and queries.',
     tags: '#Backend #Express #NodeJS #JavaScript #JWTs #Cookies #MongoDB',
     sourceLink: 'https://github.com/rodrigo-bravo/api-backend',
@@ -30,7 +31,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Weather App',
-    desc: 
+    desc:
       'An API-connected website to display current weather data of any given city via the OpenWeatherMap API.',
     tags: '#FullStack #JavaScript #NodeJS #API #HTML #CSS ',
     sourceLink: 'https://github.com/rodrigo-bravo/weather-app',
@@ -39,7 +40,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Portfolio Website',
-    desc: 
+    desc:
       'Multi-page responsive portfolio website with high SEO, performance, and accessibility scores.',
     tags: '#Frontend #React #Routing #NodeJS',
     sourceLink: 'https://github.com/rodrigo-bravo/portfolio',
@@ -48,7 +49,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Covid-19 Data Analysis',
-    desc: 
+    desc:
       'Exploratory data analysis using SQL of Covid-19 case and death trends by country.',
     tags: '#SQL #Excel',
     sourceLink: 'https://github.com/rodrigo-bravo/covid-data-analysis',
