@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import ProjectImg from '../assets/images/backup.jpg';
+import ProjectImg from '../assets/images/backup.webp';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {

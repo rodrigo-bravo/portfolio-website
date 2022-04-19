@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
-import bookcompanyImg from '../images/bookcompanyv3.png';
-import UTrackerImg from '../images/covidImg.jpg';
-import backendImg from '../images/backendCode.jpg';
-import weatherImg from '../images/weatherImage.png';
+import bookcompanyImg from '../images/bookcompany.webp';
+import UTrackerImg from '../images/covidImg.webp';
+import backendImg from '../images/backendCode.webp';
+import weatherImg from '../images/weatherImage.webp';
 
 const projects = [
   {
