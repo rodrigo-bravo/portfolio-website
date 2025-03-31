@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import PText from '../components/PText';
-import AboutImg from '../assets/images/about-page-img.webp';
-import AboutInfoItem from '../components/AboutInfoItem';
-import ContactBanner from '../components/ContactBanner';
+import React from "react";
+import styled from "styled-components";
+import PText from "../components/PText";
+import AboutImg from "../assets/images/about-page-img.webp";
+import AboutInfoItem from "../components/AboutInfoItem";
+import ContactBanner from "../components/ContactBanner";
 
 const AboutPageStyles = styled.div`
   padding: 23rem 0 10rem 0;
@@ -232,8 +232,8 @@ export default function About() {
               <div className="spacing" />
               <AboutInfoItem
                 title="College"
-                items={['Williams College']}
-                subitems={['Bachelor of Arts in Mathematics ', ' & Economics']}
+                items={["Williams College"]}
+                subitems={["Bachelor of Arts in Mathematics ", " & Economics"]}
               />
               <br />
               <div className="spacing" />
@@ -241,14 +241,14 @@ export default function About() {
                 title="Awards"
                 items={[
                   "Dean's List",
-                  'QuestBridge Finalist',
-                  'Howard A. Halligan Scholarship',
+                  "QuestBridge Finalist",
+                  "Howard A. Halligan Scholarship",
                 ]}
               />
               <div className="spacing" />
               <AboutInfoItem
                 title="Activities"
-                items={['Yearbook Editor', 'Investment Club']}
+                items={["Yearbook Editor", "Investment Club"]}
               />
             </div>
             <div className="about__info__item">
@@ -256,16 +256,16 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['Angular', 'React', 'JavaScript', 'HTML', 'CSS']}
+                items={["Angular", "React", "JavaScript", "HTML", "CSS"]}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node.js', 'Express', 'Java']}
+                items={["Node.js", "Express", "Java"]}
               />
               <div className="spacingMinus" />
               <AboutInfoItem
                 title="Systems Design"
-                items={['APIs / Services', 'CDN', 'Caching']}
+                items={["APIs / Services", "CDN", "Caching"]}
               />
             </div>
             <div className="about__info__item">
@@ -273,21 +273,21 @@ export default function About() {
 
               <AboutInfoItem
                 title="2017"
-                items={['Student Technology Consultant']}
+                items={["Student Technology Consultant"]}
               />
               <AboutInfoItem
                 title="2018"
-                items={['Summer Analyst at Joseph Gunnar & Co.']}
+                items={["Summer Analyst at Joseph Gunnar & Co."]}
               />
               <AboutInfoItem
                 title="2019"
-                items={['Library Systems Assistant']}
+                items={["Library Systems Assistant"]}
               />
               <AboutInfoItem
                 title="2020"
-                items={['Polymath Jr-REU at Williams College SMALL 2020 ']}
+                items={["Polymath Jr-REU at Williams College SMALL 2020 "]}
               />
-              <AboutInfoItem title="2021-" items={['Software Engineer']} />
+              <AboutInfoItem title="2021-" items={["Software Engineer"]} />
             </div>
           </div>
         </div>
