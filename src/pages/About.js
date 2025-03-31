@@ -273,21 +273,21 @@ export default function About() {
 
               <AboutInfoItem
                 title="2017"
-                items={['Student Technology Consultant']}
+                items={['Technology Consultant at Williams College']}
               />
               <AboutInfoItem
                 title="2018"
-                items={['Summer Analyst at Joseph Gunnar & Co.']}
+                items={['Equity Research Intern at Joseph Gunnar & Co.']}
               />
               <AboutInfoItem
                 title="2019"
-                items={['Library Systems Assistant']}
+                items={['Library Systems Intern at Williams College']}
               />
               <AboutInfoItem
                 title="2020"
-                items={['Polymath Jr-REU at Williams College SMALL 2020 ']}
+                items={['Research Assistant (REU) at National Science Foundation']}
               />
-              <AboutInfoItem title="2021-" items={['Software Engineer']} />
+              <AboutInfoItem title="2021-" items={['Systems Engineer']} />
             </div>
           </div>
         </div>
