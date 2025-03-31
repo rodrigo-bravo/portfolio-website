@@ -167,17 +167,17 @@ export default function About() {
         <div className="container">
           <div className="top-section">
             <div className="left">
-              <p className="about__subheading"> Hi, I am Rodrigo Bravo.</p>
-              <h2 className="about__heading">A software engineer</h2>
+              <p className="about__subheading"> Hello! I am a</p>
+              <h2 className="about__heading">data enthusiast</h2>
               <div className="about__info">
                 <PText>
-                  from Orlando, FL.
+                  from Florida.
                   <br />
                   <br /> I've worked with <b>Express</b>, <b>Javascript</b>
                   ,&nbsp;
                   <b>Angular</b>, <b>React</b>, <b>Java</b>, <b>Springboot</b>,
                   <b> J2EE</b>, <b>Python</b>, <b>R</b>, <b>Stata</b>,
-                  <b> MATLAB</b>, and <b>Oracle SQL</b>.
+                  <b> MATLAB</b>, and <b>SQL</b>.
                   <br />
                   <br />
                   I'm currently working on a stock trading bot with Python.
@@ -233,7 +233,7 @@ export default function About() {
               <AboutInfoItem
                 title="College"
                 items={["Williams College"]}
-                subitems={["Bachelor of Arts in Mathematics ", " & Economics"]}
+                subitems={["Bachelor of Arts in Mathematics ", "and Economics"]}
               />
               <br />
               <div className="spacing" />
@@ -242,7 +242,7 @@ export default function About() {
                 items={[
                   "Dean's List",
                   "QuestBridge Finalist",
-                  "Howard A. Halligan Scholarship",
+                  "Howard A. Halligan Class of 1959 Scholarship",
                 ]}
               />
               <div className="spacing" />
@@ -273,21 +273,21 @@ export default function About() {
 
               <AboutInfoItem
                 title="2017"
-                items={["Student Technology Consultant"]}
+                items={["Technology Consultant at Williams College"]}
               />
               <AboutInfoItem
                 title="2018"
-                items={["Summer Analyst at Joseph Gunnar & Co."]}
+                items={["Equity Research Intern at Joseph Gunnar & Co."]}
               />
               <AboutInfoItem
                 title="2019"
-                items={["Library Systems Assistant"]}
+                items={["Library Systems Intern at Williams College"]}
               />
               <AboutInfoItem
                 title="2020"
-                items={["Polymath Jr-REU at Williams College SMALL 2020 "]}
+                items={["Research Assistant (REU) at National Science Foundation"]}
               />
-              <AboutInfoItem title="2021-" items={["Software Engineer"]} />
+              <AboutInfoItem title="2021-" items={["Systems Engineer"]} />
             </div>
           </div>
         </div>
