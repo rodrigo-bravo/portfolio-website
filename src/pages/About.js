@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import PText from "../components/PText";
-import AboutImg from "../assets/images/about-page-img.webp";
-import AboutInfoItem from "../components/AboutInfoItem";
-import ContactBanner from "../components/ContactBanner";
+import React from 'react';
+import styled from 'styled-components';
+import PText from '../components/PText';
+import AboutImg from '../assets/images/about-page-img.webp';
+import AboutInfoItem from '../components/AboutInfoItem';
+import ContactBanner from '../components/ContactBanner';
 
 const AboutPageStyles = styled.div`
   padding: 23rem 0 10rem 0;
@@ -164,12 +164,12 @@ export default function About() {
   return (
     <>
       <AboutPageStyles>
-        <div className="container">
-          <div className="top-section">
-            <div className="left">
-              <p className="about__subheading"> Hello! I am a</p>
-              <h2 className="about__heading">data enthusiast</h2>
-              <div className="about__info">
+        <div className='container'>
+          <div className='top-section'>
+            <div className='left'>
+              <p className='about__subheading'> Hello! I am a</p>
+              <h2 className='about__heading'>data enthusiast</h2>
+              <div className='about__info'>
                 <PText>
                   from Florida.
                   <br />
@@ -183,111 +183,111 @@ export default function About() {
                   I'm currently working on a stock trading bot with Python.
                 </PText>
               </div>
-              <div id="content-icon">
+              <div id='content-icon'>
                 <img
-                  src="https://i.ibb.co/ccXF788/logolinkedin.png"
-                  alt="Linkedin Logo"
+                  src='https://i.ibb.co/ccXF788/logolinkedin.png'
+                  alt='Linkedin Logo'
                 />
                 <a
-                  className="img-content"
-                  href="https://linkedin.com/in/rodrigo-e-bravo"
+                  className='img-content'
+                  href='https://linkedin.com/in/rodrigo-e-bravo'
                 >
                   Linkedin
                 </a>
               </div>
-              <div id="content-icon">
+              <div id='content-icon'>
                 <img
-                  src="https://i.ibb.co/b2DHsg2/logogithubv6.png"
-                  alt="Github Logo"
+                  src='https://i.ibb.co/b2DHsg2/logogithubv6.png'
+                  alt='Github Logo'
                 />
                 <a
-                  className="img-content"
-                  href="https://github.com/rodrigo-bravo"
+                  className='img-content'
+                  href='https://github.com/rodrigo-bravo'
                 >
                   Github
                 </a>
               </div>
-              <div id="content-icon-email">
+              <div id='content-icon-email'>
                 <img
-                  src="https://i.ibb.co/MN7GMJm/logogmailv3.png"
-                  alt="Email Logo"
+                  src='https://i.ibb.co/MN7GMJm/logogmailv3.png'
+                  alt='Email Logo'
                 />
                 <a
-                  className="img-content"
-                  href="mailto:rodrigoebravo@outlook.com"
+                  className='img-content'
+                  href='mailto:rodrigoebravo@outlook.com'
                 >
                   Email
                 </a>
               </div>
             </div>
-            <div className="right">
-              <img src={AboutImg} alt="me" width="500" height="500" />
+            <div className='right'>
+              <img src={AboutImg} alt='me' width='500' height='500' />
             </div>
           </div>
-          <div className="about__info__items">
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
-              <div className="spacing" />
-              <div className="spacing" />
-              <div className="spacing" />
+          <div className='about__info__items'>
+            <div className='about__info__item'>
+              <h1 className='about__info__heading'>Education</h1>
+              <div className='spacing' />
+              <div className='spacing' />
+              <div className='spacing' />
               <AboutInfoItem
-                title="College"
-                items={["Williams College"]}
-                subitems={["Bachelor of Arts in Mathematics ", "and Economics"]}
+                title='College'
+                items={['Williams College']}
+                subitems={['Bachelor of Arts in Mathematics ', 'and Economics']}
               />
               <br />
-              <div className="spacing" />
+              <div className='spacing' />
               <AboutInfoItem
-                title="Awards"
+                title='Awards'
                 items={[
                   "Dean's List",
-                  "QuestBridge Finalist",
-                  "Howard A. Halligan Class of 1959 Scholarship",
+                  'QuestBridge Finalist',
+                  'Howard A. Halligan Class of 1959 Scholarship',
                 ]}
               />
-              <div className="spacing" />
+              <div className='spacing' />
               <AboutInfoItem
-                title="Activities"
-                items={["Yearbook Editor", "Investment Club"]}
+                title='Activities'
+                items={['Yearbook Editor', 'Investment Club']}
               />
             </div>
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Skills</h1>
+            <div className='about__info__item'>
+              <h1 className='about__info__heading'>Skills</h1>
 
               <AboutInfoItem
-                title="FrontEnd"
-                items={["Angular", "React", "JavaScript", "HTML", "CSS"]}
+                title='FrontEnd'
+                items={['Angular', 'React', 'JavaScript', 'HTML', 'CSS']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={["Node.js", "Express", "Java"]}
+                title='BackEnd'
+                items={['Node.js', 'Express', 'Java']}
               />
-              <div className="spacingMinus" />
+              <div className='spacingMinus' />
               <AboutInfoItem
-                title="Systems Design"
-                items={["APIs / Services", "CDN", "Caching"]}
+                title='Systems Design'
+                items={['APIs / Services', 'CDN', 'Caching']}
               />
             </div>
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
+            <div className='about__info__item'>
+              <h1 className='about__info__heading'>Experiences</h1>
 
               <AboutInfoItem
-                title="2017"
-                items={["Technology Consultant at Williams College"]}
+                title='2017'
+                items={['Technology Consultant at Williams College']}
               />
               <AboutInfoItem
-                title="2018"
-                items={["Equity Research Intern at Joseph Gunnar & Co."]}
+                title='2018'
+                items={['Equity Research Intern at Joseph Gunnar & Co.']}
               />
               <AboutInfoItem
-                title="2019"
-                items={["Library Systems Intern at Williams College"]}
+                title='2019'
+                items={['Library Systems Intern at Williams College']}
               />
               <AboutInfoItem
-                title="2020"
-                items={["Research Assistant (REU) at National Science Foundation"]}
+                title='2020'
+                items={['Research Assistant (REU) at National Science Foundation']}
               />
-              <AboutInfoItem title="2021-" items={["Systems Engineer"]} />
+              <AboutInfoItem title='2021-' items={['Systems Engineer']} />
             </div>
           </div>
         </div>
