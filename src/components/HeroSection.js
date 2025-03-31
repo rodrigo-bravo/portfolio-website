@@ -256,7 +256,7 @@ export default function HeroSection() {
           <h1 className="hero__heading">
             <span className="hero__name">Rodrigo Bravo</span>
             <span className="hero__subname">
-              I am a software developer with a background in Mathematics.
+              Software Developer with a Strong Mathematics Background
             </span>
           </h1>
           <Button btnText="See my projects" btnLink="/projects" />
